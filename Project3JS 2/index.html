@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Pokemon Team</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My First Pokemon Team</h1>
+    <section class="pokemonGrid">
+      <div>
+        <img
+          src="assets/blastoise.png"
+          alt=""
+          id="blastoisePic"
+          onmouseover="shinyBlastoise('blastoise')"
+          onmouseout="blastoise('blastoise')"
+        />
+        <h2>Blastoise</h2>
+        <div id="blastoise" class="pokeStats"></div>
+        <button id="btnData">See Stats</button>
+      </div>
+      <div>
+        <img
+          src="assets/dragonite.png"
+          alt=""
+          id="dragonitePic"
+          onmouseover="shinyDragonite()"
+          onmouseout="dragonite()"
+        />
+        <h2>Dragonite</h2>
+        <span id="dragonite"></span>
+        <button id="dragoniteBtn">See Stats</button>
+      </div>
+      <div>
+        <img
+          src="assets/kadabra.webp"
+          alt=""
+          id="kadabraPic"
+          onmouseover="shinyKadabra()"
+          onmouseout="kadabra()"
+        />
+        <h2>Kadabra</h2>
+        <span id="kadabra"></span>
+        <button id="kadabraBtn">See Stats</button>
+      </div>
+      <div>
+        <img
+          src="assets/nidoking.webp"
+          alt=""
+          id="nidokingPic"
+          onmouseover="shinyNidoking()"
+          onmouseout="nidoking()"
+        />
+        <h2>Nidoking</h2>
+        <span id="nidoking"></span>
+        <button id="nidokingBtn">See Stats</button>
+      </div>
+      <div>
+        <img
+          src="assets/raichu.png"
+          alt=""
+          id="raichuPic"
+          onmouseover="shinyRaichu()"
+          onmouseout="raichu()"
+        />
+        <h2>Raichu</h2>
+        <span id="raichu"></span>
+        <button id="raichuBtn">See Stats</button>
+      </div>
+      <div>
+        <img
+          src="assets/tauros.png"
+          alt=""
+          id="taurosPic"
+          onmouseover="shinyTauros()"
+          onmouseout="tauros()"
+        />
+        <h2>Tauros</h2>
+        <span id="tauros"></span>
+        <button id="taurosBtn">See Stats</button>
+        <script src="script.js"></script>
+      </div>
+    </section>
+  </body>
+</html>
